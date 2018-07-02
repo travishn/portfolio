@@ -159,7 +159,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -2275,7 +2275,43 @@ input, select, textarea {
 
 		}
 
-/* Icons */
+/* icons */
+	#icon {
+		font-size: 2em;
+		line-height: 2em;
+	}
+
+	ul.icons1 {
+		/* position: absolute;
+		left: 0;
+		right: 0;
+		margin: auto; */
+		display: flex;
+		flex-direction: column;
+	}
+
+	ul.icons1 li {
+		display: inline-block;
+		padding: 0 1em 0 0;
+	}
+
+	ul.icons1 li:last-child {
+		padding-right: 0 !important;
+	}
+
+	ul.icons1.major {
+		padding: 1em 0;
+	}
+
+	ul.icons1.major li {
+		padding-right: 3.5em;
+	}
+
+	@media screen and (max-width: 736px) {
+		ul.icons1.major li {
+			padding: 0 1em !important;
+		}
+	}
 
 	ul.icons {
 		cursor: default;
@@ -3976,3 +4012,53 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+.show {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.showme {
+	opacity: 0;
+	position: absolute;
+	top: 29em;
+}
+
+.linked-in {
+	right: 41.5em;
+}
+
+.resume {
+	right: 44.6em;
+}
+
+.angel-list {
+	right: 38.7em;
+}
+
+.email {
+	right: 37em;
+}
+
+.github {
+	right: 33.7em;
+}
+.banner-icon:hover .showme {
+	opacity: 1;
+}
+
+.banner-icon {
+	display: flex;
+	flex-direction: center;
+	justify-content: center;
+}
+
+.banner-text {
+	display: flex;
+	justify-content: center;
+}
+
+.banner-text p {
+	font-size: 16px;
+}
