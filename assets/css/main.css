@@ -4054,6 +4054,11 @@ input, select, textarea {
 	justify-content: center;
 }
 
+#icon:hover {
+	opacity: 0.7;
+}
+
+
 .banner-text {
 	display: flex;
 	justify-content: center;
