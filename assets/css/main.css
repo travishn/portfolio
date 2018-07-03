@@ -2005,68 +2005,104 @@ input, select, textarea {
 
 /* Icon */
 
-	.icon {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
+.icon {
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+}
+
+ul.major {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	row-gap: 1em;
+	column-gap: 1em;
+	width: 600px;
+	align-items: center;
+}
+
+ul.major li {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.grid-container {
+	display: flex;
+	justify-content: center;
+}
+
+.skill-icon {
+	font-size: 100px;
+}
+
+.nodejs {
+	font-size: 130px;
+}
+
+.js {
+	font-size: 90px;
+}
+
+.webpack {
+	font-size: 130px;
+}
+
+.icon:before {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-family: FontAwesome;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: none !important;
+}
+
+.icon > .label {
+	display: none;
+}
+
+.icon.major {
+	-moz-transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	border-radius: 3px;
+	border: solid 2px #fff;
+	display: inline-block;
+	font-size: 1.35em;
+	height: calc(3em + 2px);
+	line-height: 3em;
+	text-align: center;
+	width: calc(3em + 2px);
+}
+
+.icon.major:before {
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+@media screen and (max-width: 736px) {
+
+	.icon.major {
+		font-size: 1em;
 	}
 
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
-		}
+}
 
-		.icon > .label {
-			display: none;
-		}
+.icon.style1 {
+	color: #00ffcc;
+}
 
-		.icon.major {
-			-moz-transform: rotate(-45deg);
-			-webkit-transform: rotate(-45deg);
-			-ms-transform: rotate(-45deg);
-			transform: rotate(-45deg);
-			border-radius: 3px;
-			border: solid 2px #fff;
-			display: inline-block;
-			font-size: 1.35em;
-			height: calc(3em + 2px);
-			line-height: 3em;
-			text-align: center;
-			width: calc(3em + 2px);
-		}
+.icon.style2 {
+	color: #00f0ff;
+}
 
-			.icon.major:before {
-				-moz-transform: rotate(45deg);
-				-webkit-transform: rotate(45deg);
-				-ms-transform: rotate(45deg);
-				transform: rotate(45deg);
-				display: inline-block;
-				font-size: 1.5em;
-			}
-
-			@media screen and (max-width: 736px) {
-
-				.icon.major {
-					font-size: 1em;
-				}
-
-			}
-
-		.icon.style1 {
-			color: #00ffcc;
-		}
-
-		.icon.style2 {
-			color: #00f0ff;
-		}
-
-		.icon.style3 {
-			color: #76ddff;
-		}
+.icon.style3 {
+	color: #76ddff;
+}
 
 /* Image */
 
@@ -2276,73 +2312,69 @@ input, select, textarea {
 		}
 
 /* icons */
-	#icon {
-		font-size: 2em;
-		line-height: 2em;
-	}
+#icon {
+	font-size: 2em;
+	line-height: 2em;
+}
 
-	ul.icons1 {
-		/* position: absolute;
-		left: 0;
-		right: 0;
-		margin: auto; */
-		display: flex;
-		flex-direction: column;
-	}
+ul.icons1 {
+	display: flex;
+	flex-direction: column;
+}
 
-	ul.icons1 li {
-		display: inline-block;
-		padding: 0 1em 0 0;
-	}
+ul.icons1 li {
+	display: inline-block;
+	padding: 0 1em 0 0;
+}
 
-	ul.icons1 li:last-child {
+ul.icons1 li:last-child {
+	padding-right: 0 !important;
+}
+
+ul.icons1.major {
+	padding: 1em 0;
+}
+
+ul.icons1.major li {
+	padding-right: 3.5em;
+}
+
+@media screen and (max-width: 736px) {
+	ul.icons1.major li {
+		padding: 0 1em !important;
+	}
+}
+
+ul.icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+ul.icons li {
+	display: inline-block;
+	/* padding: 0 1em 0 0; */
+}
+
+	ul.icons li:last-child {
 		padding-right: 0 !important;
 	}
 
-	ul.icons1.major {
-		padding: 1em 0;
+ul.icons.major {
+	/* padding: 1em 0; */
+}
+
+ul.icons.major li {
+	/* padding-right: 3.5em; */
+}
+
+@media screen and (max-width: 736px) {
+
+	ul.icons.major li {
+		padding: 0 1em !important;
 	}
 
-	ul.icons1.major li {
-		padding-right: 3.5em;
-	}
-
-	@media screen and (max-width: 736px) {
-		ul.icons1.major li {
-			padding: 0 1em !important;
-		}
-	}
-
-	ul.icons {
-		cursor: default;
-		list-style: none;
-		padding-left: 0;
-	}
-
-		ul.icons li {
-			display: inline-block;
-			padding: 0 1em 0 0;
-		}
-
-			ul.icons li:last-child {
-				padding-right: 0 !important;
-			}
-
-		ul.icons.major {
-			padding: 1em 0;
-		}
-
-			ul.icons.major li {
-				padding-right: 3.5em;
-			}
-
-				@media screen and (max-width: 736px) {
-
-					ul.icons.major li {
-						padding: 0 1em !important;
-					}
-
-				}
+}
 
 /* Table */
 
