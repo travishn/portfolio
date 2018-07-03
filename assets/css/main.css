@@ -1775,7 +1775,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		margin: 0 0 3.5em 0;
+		margin: 0 0 2em 0;
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -2029,6 +2029,7 @@ ul.major li {
 .grid-container {
 	display: flex;
 	justify-content: center;
+	padding-right: 3em;
 }
 
 .skill-icon {
@@ -2835,7 +2836,7 @@ ul.icons.major li {
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0 4em 0 ;
+		padding: 6em 0 8.5em 0 ;
 	}
 
 		.wrapper > .inner {
