@@ -2865,8 +2865,8 @@ ul.icons.major li {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
-			color: #c8ece9;
+			/* background: linear-gradient(45deg, #ff9966 0%, #ff5e62 85%); */
+			background: linear-gradient(45deg, #FF5F6D 0%, #FFC371 85%);
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -3690,10 +3690,11 @@ ul.icons.major li {
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
 			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
 			transition: transform 0.75s ease, opacity 0.75s ease;
-			-moz-transition-delay: 3.5s;
-			-webkit-transition-delay: 3.5s;
-			-ms-transition-delay: 3.5s;
-			transition-delay: 3.5s;
+			-moz-transition-delay: 2.5s;
+			-webkit-transition-delay: 2.5s;
+			-ms-transition-delay: 2.5s;
+			transition-delay: 2.5s;
+			/* location where you change speed that Learn More pops up */
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -3733,10 +3734,11 @@ ul.icons.major li {
 
 		#banner:after {
 			pointer-events: none;
-			-moz-transition: opacity 3s ease-in-out;
-			-webkit-transition: opacity 3s ease-in-out;
-			-ms-transition: opacity 3s ease-in-out;
-			transition: opacity 3s ease-in-out;
+			-moz-transition: opacity 2s ease-in-out;
+			-webkit-transition: opacity 2s ease-in-out;
+			-ms-transition: opacity 2s ease-in-out;
+			transition: opacity 2s ease-in-out;
+			/* location where you change speed of background loading */
 			-moz-transition-delay: 1.25s;
 			-webkit-transition-delay: 1.25s;
 			-ms-transition-delay: 1.25s;
@@ -4071,11 +4073,11 @@ ul.icons.major li {
 }
 
 .email {
-	right: 37em;
+	right: 33.7em;
 }
 
 .github {
-	right: 33.7em;
+	right: 37em;
 }
 .banner-icon:hover .showme {
 	opacity: 1;
