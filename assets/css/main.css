@@ -3734,10 +3734,10 @@ ul.icons.major li {
 
 		#banner:after {
 			pointer-events: none;
-			-moz-transition: opacity 2s ease-in-out;
-			-webkit-transition: opacity 2s ease-in-out;
-			-ms-transition: opacity 2s ease-in-out;
-			transition: opacity 2s ease-in-out;
+			-moz-transition: opacity 1.75s ease-in-out;
+			-webkit-transition: opacity 1.75s ease-in-out;
+			-ms-transition: opacity 1.75s ease-in-out;
+			transition: opacity 1.75s ease-in-out;
 			/* location where you change speed of background loading */
 			-moz-transition-delay: 1.25s;
 			-webkit-transition-delay: 1.25s;
