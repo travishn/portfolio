@@ -50,6 +50,14 @@
 				offset: $header.outerHeight()
 			});
 
+	// Menu-Scrolly.
+			$('.menu-scrolly')
+				.scrolly({
+					speed: 1000,
+					offset: $header.outerHeight()
+				});
+
+
 	// Menu.
 		$('#menu')
 			.append('<a href="#menu" class="close"></a>')
