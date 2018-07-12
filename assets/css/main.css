@@ -3984,10 +3984,18 @@ ul.icons.major li {
 				padding: 5em 3em 3em 3em ;
 			}
 
-				#main > header h2 {
-					font-size: 1.25em;
-					margin: 0 0 1em 0;
-				}
+			#main > header h2 {
+				font-size: 1.25em;
+				margin: 0 0 1em 0;
+			}
+
+			.show {
+				display: grid;
+				width: 70%;
+				margin: 0 auto;
+				grid-template-columns: repeat(5, 1fr);
+			}
+			
 
 		}
 
@@ -4006,6 +4014,13 @@ ul.icons.major li {
 				width: 600px;
 				align-items: center;
 			}
+
+			.show {
+				display: grid;
+				width: 80%;
+				margin: 0 auto;
+				grid-template-columns: repeat(5, 1fr);
+			}
 		}
 
 		@media screen and (max-width: 555px) {
@@ -4018,6 +4033,11 @@ ul.icons.major li {
 				align-items: center;
 			}
 
+			.show {
+				display: grid;
+				width: 100%;
+				margin: 0 auto;
+				grid-template-columns: repeat(5, 1fr);
 			}
 		}
 
