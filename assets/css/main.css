@@ -2849,7 +2849,6 @@ ul.icons.major li {
 	}
 
 	.about-wrapper > .inner {
-		width: 60em;
 		margin: 0 auto;
 	}
 
@@ -4144,17 +4143,22 @@ ul.icons.major li {
 }
 
 .profile-pic {
-	height: 25%;
-	width: 25%;
+	/* height: 25%; */
+	width: 250px;
 	border-radius: 140px;
 }
 
 .profile-header {
-	width: 100%
+	width: 75%
 }
 
 .about-section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.about-description {
+	width: 75%;
+	margin: 0 auto;
 }
