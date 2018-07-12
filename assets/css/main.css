@@ -2080,19 +2080,19 @@ ul.major li {
 
 @media screen and (max-width: 670px) {
 		.skill-icon {
-			font-size: 90px;
+			font-size: 70px;
 		}
 
 		.nodejs {
-			font-size: 120px;
+			font-size: 100px;
 		}
 
 		.js {
-			font-size: 80px;
+			font-size: 60px;
 		}
 
 		.webpack {
-			font-size: 120px;
+			font-size: 100px;
 		}
 }
 
