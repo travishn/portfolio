@@ -4033,6 +4033,11 @@ ul.icons.major li {
 				align-items: center;
 			}
 
+			.grid-container {
+				display: flex;
+				justify-content: center;
+			}
+
 			.show {
 				display: flex;
 				justify-content: center;
