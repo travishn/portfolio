@@ -3917,7 +3917,7 @@ ul.icons.major li {
 
 			.show {
 				display: grid;
-				width: 30%;
+				width: 33%;
 				margin: 0 auto;
 				grid-template-columns: repeat(5, 1fr);
 			}
@@ -3956,7 +3956,7 @@ ul.icons.major li {
 
 			.show {
 				display: grid;
-				width: 35%;
+				width: 43%;
 				margin: 0 auto;
 				grid-template-columns: repeat(5, 1fr);
 			}
@@ -4034,10 +4034,8 @@ ul.icons.major li {
 			}
 
 			.show {
-				display: grid;
-				width: 100%;
-				margin: 0 auto;
-				grid-template-columns: repeat(5, 1fr);
+				display: flex;
+				justify-content: center;
 			}
 		}
 
