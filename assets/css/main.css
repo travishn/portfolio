@@ -4027,9 +4027,9 @@ ul.icons.major li {
 			ul.major {
 				display: grid;
 				grid-template-columns: 33% 33% 33%;
-				row-gap: 1em;
+				row-gap: 2.5em;
 				column-gap: 1em;
-				width: 600px;
+				/* width: 600px; */
 				align-items: center;
 			}
 
