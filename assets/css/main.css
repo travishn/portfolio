@@ -4003,7 +4003,7 @@ ul.icons.major li {
 			.grid-container {
 				display: flex;
 				justify-content: center;
-				padding-right: 3em;
+				padding-right: 0;
 			}
 
 			ul.major {
@@ -4029,7 +4029,6 @@ ul.icons.major li {
 				grid-template-columns: 33% 33% 33%;
 				row-gap: 2.5em;
 				column-gap: 1em;
-				/* width: 600px; */
 				align-items: center;
 			}
 
