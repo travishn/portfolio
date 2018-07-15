@@ -3044,8 +3044,12 @@ ul.icons.major li {
 		}
 
 		.about-wrapper.style3 {
-			/* background: linear-gradient(45deg, #ed6ea0 0%, #ec8c69 85%); */
-			background-image: linear-gradient(-45deg, #ed6ea0 0%, #ec8c69 100%);
+			/* background-image: linear-gradient(-45deg, #ed6ea0 0%, #ec8c69 100%); */
+			display: flex;
+			align-items: center;
+			height: 95vh;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.75), rgba(23, 24, 32, 0.75)),
+			url(https://res.cloudinary.com/emanon/image/upload/v1531619217/p2.png);
 			color: #d3d4e4;
 		}
 
