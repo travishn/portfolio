@@ -3081,7 +3081,8 @@ ul.icons.major li {
 			}
 
 			.about-wrapper.style3 header.major h2, .about-wrapper.style3 header.major h3, .about-wrapper.style3 header.major h4, .about-wrapper.style3 header.major h5, .about-wrapper.style3 header.major h6 {
-				border-color: rgba(0, 0, 0, 0.125);
+				/* border-color: rgba(0, 0, 0, 0.125); */
+				border-color: white;
 			}
 
 			.about-wrapper.style3 header.major p {
