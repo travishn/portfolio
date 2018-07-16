@@ -3052,7 +3052,7 @@ ul.icons.major li {
 			align-items: center;
 			height: 95vh;
 			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.75), rgba(23, 24, 32, 0.75)),
-			url(https://res.cloudinary.com/emanon/image/upload/v1531619217/p2.png);
+			url(../../images/polygon-overlay.png);
 			color: #d3d4e4;
 		}
 
