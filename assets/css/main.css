@@ -4268,4 +4268,25 @@ ul.icons.major li {
 
 .link-icon {
 	border: none;
+	font-size: 1.3333333em;
+	vertical-align: -.0667em;
+}
+
+.link-icon:hover {
+	opacity: 0.5;
+}
+
+.project-links {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	width: 12.5%;
+}
+
+.github-link {
+	font-size: 1.75em;
+	line-height: .75em;
+	vertical-align: -.0667em;
+}
+.github-link:hover {
+	opacity: 0.5;
 }
