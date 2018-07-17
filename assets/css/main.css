@@ -2884,8 +2884,9 @@ ul.icons.major li {
 		}
 
 		.wrapper.style1 {
-			/* background: linear-gradient(45deg, #ff9966 0%, #ff5e62 85%); */
-			background: linear-gradient(45deg, #FF5F6D 0%, #FFC371 85%);
+			/* background: linear-gradient(45deg, #ff9966 15%, #ff5e62 85%); */
+			/* background: linear-gradient(45deg, #FF5F6D 0%, #FFC371 85%); */
+			background: linear-gradient(45deg, #FF5F6D 0%, #ffd65e 90%);
 		}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -4263,4 +4264,8 @@ ul.icons.major li {
 .about-description {
 	width: 75%;
 	margin: 0 auto;
+}
+
+.link-icon {
+	border: none;
 }
