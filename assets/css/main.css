@@ -2754,17 +2754,17 @@ ul.icons.major li {
 
 		.spotlight:nth-child(1) {
 			/* background-color: rgba(0, 0, 0, 0.075); */
-			background-color: rgb(31, 30, 42);
+			background-color: #292838;
 		}
 
 		.spotlight:nth-child(2) {
 			/* background-color: rgba(0, 0, 0, 0.15); */
-			background-color: rgb(31, 30, 42);
+			background-color: #292838;
 		}
 
 		.spotlight:nth-child(3) {
 			/* background-color: rgba(0, 0, 0, 0.225); */
-			background-color: rgb(31, 30, 42)
+			background-color: #292838;
 		}
 
 		.spotlight:nth-child(4) {
