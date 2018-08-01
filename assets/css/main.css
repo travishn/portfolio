@@ -4297,3 +4297,22 @@ ul.icons.major li {
 	grid-template-columns: repeat(5, 1fr);
 	margin: 0 auto;
 }
+
+.grid-container {
+	display: flex;
+	justify-content: center;
+	padding-right: 3em;
+}
+
+.grid-container > .icons.major {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	row-gap: 1em;
+	column-gap: 1em;
+	align-items: center;
+	width: 1000px;
+}
+
+.skill-icon {
+	font-size: 100px
+}
