@@ -2055,6 +2055,23 @@ ul.major li {
 	font-size: 1.5em;
 }
 
+@media screen and (max-width: 2560px) {
+	.skill-icon {
+		font-size: 120px;
+	}
+	.nodejs {
+		font-size: 150px;
+	}
+
+	.js {
+		font-size: 100px;
+	}
+
+	.webpack {
+		font-size: 150px;
+		
+}
+
 @media screen and (max-width: 1680px) {
 	.skill-icon {
 		font-size: 100px;
@@ -3919,6 +3936,34 @@ ul.icons.major li {
 			color: inherit;
 		}
 
+		@media screen and (max-width: 2560px) {
+			.show {
+				display: grid;
+				width: 43%;
+				grid-template-columns: repeat(5, 1fr);
+				margin: 0 auto;
+			}
+
+			.grid-container {
+				display: flex;
+				justify-content: center;
+				padding-right: 3em;
+			}
+
+			ul.major {
+				display: grid;
+				grid-template-columns: 25% 25% 25% 25%;
+				row-gap: 1em;
+				column-gap: 1em;
+				align-items: center;
+				width: 1000px;
+			}
+
+			/* .skill-icon {
+				font-size: 100px
+			} */
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			#main > header {
@@ -4289,30 +4334,4 @@ ul.icons.major li {
 }
 .github-link:hover {
 	opacity: 0.5;
-}
-
-.show {
-	display: grid;
-	width: 43%;
-	grid-template-columns: repeat(5, 1fr);
-	margin: 0 auto;
-}
-
-.grid-container {
-	display: flex;
-	justify-content: center;
-	padding-right: 3em;
-}
-
-.grid-container > .icons.major {
-	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
-	row-gap: 1em;
-	column-gap: 1em;
-	align-items: center;
-	width: 1000px;
-}
-
-.skill-icon {
-	font-size: 100px
 }
