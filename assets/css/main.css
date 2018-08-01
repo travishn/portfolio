@@ -4290,3 +4290,10 @@ ul.icons.major li {
 .github-link:hover {
 	opacity: 0.5;
 }
+
+.show {
+	display: grid;
+	width: 43%;
+	grid-template-columns: repeat(5, 1fr);
+	margin: 0 auto;
+}
